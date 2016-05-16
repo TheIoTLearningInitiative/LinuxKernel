@@ -42,5 +42,6 @@ root@workstation:~# make install
 
 Reboot your workstation and confirm the new version has been installed
 
-    user@workstation:~$ uname -a
-    Linux Minnowboard 3.19.0-rc7+ #1 SMP Debian ... x86_64 GNU/Linux
+```sh
+user@workstation:~$ uname -a
+```
