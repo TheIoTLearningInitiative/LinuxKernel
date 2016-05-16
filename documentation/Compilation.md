@@ -21,14 +21,14 @@ remote: Compressing objects: 100% (3641/3641), done.
 user@workstation:~$ cd linux
 ```
 
-## System Information
+## System Information, Actual Version
 
 ```sh
 user@workstation:~$ uname -a
 Linux jessie 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt20-1+deb8u4 (2016-02-29) i686 GNU/Linux
 ```
 
-## Linux Kernel Compilation
+## Linux Kernel Compilation, Latest Version
 
 ```sh
 user@workstation:~$ make oldconfig
@@ -37,3 +37,10 @@ user@workstation:~$ make
 root@workstation:~# make modules_install
 root@workstation:~# make install
 ```
+
+## Linux Kernel Compilation
+
+Reboot your workstation and confirm the new version has been installed
+
+    user@workstation:~$ uname -a
+    Linux Minnowboard 3.19.0-rc7+ #1 SMP Debian ... x86_64 GNU/Linux
