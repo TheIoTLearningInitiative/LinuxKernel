@@ -2,6 +2,8 @@
 
 - [Linux Kernel Git Repository](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/)
 
+## Packages Setup
+
 ```sh
 root@workstation:~# apt-get update
 root@workstation:~# apt-get upgrade
