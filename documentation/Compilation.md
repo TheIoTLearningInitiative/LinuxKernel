@@ -1,6 +1,6 @@
 # Compilation
 
-- [Linux Kernel Git Repository](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/)
+- [Linux Kernel Source Tree](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/)
 
 ## Dependencies Setup
 
