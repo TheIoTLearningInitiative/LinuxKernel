@@ -28,6 +28,8 @@ user@workstation:~$ uname -a
 Linux jessie 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt20-1+deb8u4 (2016-02-29) i686 GNU/Linux
 ```
 
+## Linux Kernel Compilation
+
 ```sh
 user@workstation:~$ make oldconfig
 <You will be asked configuration questions not answered, hit Enter for all of them>
