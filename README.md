@@ -6,6 +6,9 @@
 root@workstation:~# apt-get update
 root@workstation:~# apt-get upgrade
 root@workstation:~# apt-get install linux-headers-$(uname -r) kernel-package libncurses5 libncurses5-dev git
+```
+
+```sh
 user@workstation:~$ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 Cloning into 'linux'...
 remote: Counting objects: 4697469, done.
