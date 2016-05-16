@@ -17,7 +17,11 @@ user@workstation:~$ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torv
 Cloning into 'linux'...
 remote: Counting objects: 4697469, done.
 remote: Compressing objects: 100% (3641/3641), done.
-...
+Receiving objects: 100% (4697469/4697469), 825.96 MiB | 372.00 KiB/s, done.
+remote: Total 4697469 (delta 2172), reused 0 (delta 0)
+Resolving deltas: 100% (3944070/3944070), done.
+Checking connectivity... done.
+Checking out files: 100% (53660/53660), done.
 user@workstation:~$ cd linux
 ```
 
