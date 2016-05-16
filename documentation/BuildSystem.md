@@ -9,13 +9,17 @@ Do you want to do another Linux Kernel Build System exercise by writing a Hello 
 
 Make a "helloworld" directory under drivers
 
+```sh
     user@workstation:~$ mkdir drivers/helloworld
+```
 
 Create helloworld.c file under our helloworld directory and add the C code below, this is a simple Hello World Kernel Module
 
+```sh
     user@workstation:~$ nano drivers/helloworld/helloworld.c
-
 ```
+
+```c
 #include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
