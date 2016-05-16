@@ -10,6 +10,9 @@ user@workstation:~$ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torv
 Cloning into 'linux'...
 remote: Counting objects: 4697469, done.
 remote: Compressing objects: 100% (3641/3641), done.
+```
+
+```sh
 user@workstation:~$ uname -a
 Linux Minnowboard 3.2.0-4-amd64 #1 SMP Debian 3.2.63-2+deb7u2 x86_64 GNU/Linux
 user@workstation:~$ cd linux
