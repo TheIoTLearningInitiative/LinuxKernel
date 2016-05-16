@@ -51,7 +51,7 @@ user@workstation:~$ make -j3
 
 ```sh
 root@workstation:~# make modules_install
-
+...
 ```
 
 ```sh
