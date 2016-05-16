@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](documentation/Introduction.md)
-* Compilation
+* [Compilation](documentation/Compilation.md)
 
