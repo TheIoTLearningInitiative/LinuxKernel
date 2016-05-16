@@ -38,7 +38,7 @@ root@workstation:~# make modules_install
 root@workstation:~# make install
 ```
 
-## Linux Kernel Compilation
+## Linux Kernel Compilation, Latest Version
 
 Reboot your workstation and confirm the new version has been installed
 
