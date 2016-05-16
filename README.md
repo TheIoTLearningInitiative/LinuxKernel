@@ -2,7 +2,7 @@
 
 - [Linux Kernel Git Repository](https://git.kernel.org/cgit/linux/kernel/git/torvalds/linux.git/)
 
-## Packages Setup
+## Dependencies Setup
 
 ```sh
 root@workstation:~# apt-get update
@@ -18,6 +18,8 @@ Cloning into 'linux'...
 remote: Counting objects: 4697469, done.
 remote: Compressing objects: 100% (3641/3641), done.
 ```
+
+## 
 
 ```sh
 user@workstation:~$ uname -a
