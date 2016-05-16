@@ -21,7 +21,7 @@ remote: Compressing objects: 100% (3641/3641), done.
 user@workstation:~$ cd linux
 ```
 
-## 
+## System Information
 
 ```sh
 user@workstation:~$ uname -a
