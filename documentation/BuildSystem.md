@@ -44,6 +44,7 @@ module_exit(module_exit_function);
 
 Create the Kconfig file under helloworld directory and add the code below, make sure indentation is correct
 
+```sh
     user@workstation:~$ nano drivers/helloworld/Kconfig
 
     menu "Hello Module Kernel Support"
@@ -54,16 +55,16 @@ Create the Kconfig file under helloworld directory and add the code below, make 
             help
               Select this option to run a Hello World Module!
     endmenu
-
+```
 
 #### Linux Kernel Build System, Hello World Makefile
 
-
 Create the Makefile under helloworld directory and add the code below
 
+```sh
     user@workstation:~$ nano drivers/helloworld/Makefile
     obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
-
+```
 
 #### Linux Kernel Build System, Device Drivers Kconfig seeing Hello World Directory
 
