@@ -38,6 +38,12 @@ Linux jessie 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt20-1+deb8u4 (2016-02-29) i
 user@workstation:~$ make oldconfig
 <You will be asked configuration questions not answered, hit Enter for all of them>
 user@workstation:~$ make -j3
+...
+...
+  IHEX2FW firmware/whiteheat_loader.fw
+  IHEX2FW firmware/whiteheat.fw
+  IHEX2FW firmware/keyspan_pda/keyspan_pda.fw
+  IHEX2FW firmware/keyspan_pda/xircom_pgs.fw
 root@workstation:~# make modules_install
 root@workstation:~# make install
 ```
