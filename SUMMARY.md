@@ -4,5 +4,5 @@
 * [Introduction](documentation/Introduction.md)
 * [Compilation](documentation/Compilation.md)
 * [Build System](documentation/BuildSystem.md)
-* Kernel Trees
+* [Kernel Trees](documentation/KernelTrees.md)
 
