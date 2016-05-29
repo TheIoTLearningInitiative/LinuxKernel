@@ -127,6 +127,10 @@ user@workstation:~$
 ## Assembly
 
 ```
+user@workstation:~$ as -o main.o main.s
+user@workstation:~$ ls main*
+main.c  main.i  main.o  main.s
+user@workstation:~$ 
 ```
 
 ```
