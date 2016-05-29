@@ -176,11 +176,42 @@ user@workstation:~$
 
 ## Hello World Compilation Process, Automated
 
-
-
-
-
 ```
+user@workstation:~$ gcc -v main.c -o main
+Using built-in specs.
+COLLECT_GCC=gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
+Target: i586-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'main' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i586-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu main.c -quiet -dumpbase main.c -mtune=generic -march=i586 -auxbase main -version -o /tmp/ccf2KJ9x.s
+GNU C (Debian 4.9.2-10) version 4.9.2 (i586-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p3, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/i586-linux-gnu/4.9/../../../../i586-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/i586-linux-gnu/4.9/include
+ /usr/local/include
+ /usr/lib/gcc/i586-linux-gnu/4.9/include-fixed
+ /usr/include/i386-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Debian 4.9.2-10) version 4.9.2 (i586-linux-gnu)
+	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p3, MPC version 1.0.2
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 01d8da4b8303b5d93fb017bb5b178083
+COLLECT_GCC_OPTIONS='-v' '-o' 'main' '-mtune=generic' '-march=i586'
+ as -v --32 -o /tmp/ccSNuLny.o /tmp/ccf2KJ9x.s
+GNU assembler version 2.25 (i586-linux-gnu) using BFD version (GNU Binutils for Debian) 2.25
+COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'main' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdqYGCy.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o main /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. /tmp/ccSNuLny.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+user@workstation:~$ 
 ```
 
 ```
