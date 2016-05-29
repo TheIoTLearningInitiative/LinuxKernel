@@ -25,7 +25,7 @@
 
 ### [Professional Linux Kernel Architecture](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/9780470343432)
 
-
+> Find an introduction to the architecture, concepts and algorithms of the Linux kernel in Professional Linux Kernel Architecture, a guide to the kernel sources and large number of connections among subsystems. Find an introduction to the relevant structures and functions exported by the kernel to userland, understand the theoretical and conceptual aspects of the Linux kernel and Unix derivatives, and gain a deeper understanding of the kernel. Learn how to reduce the vast amount of information contained in the kernel sources and obtain the skills necessary to understand the kernel sources.
 
 - [Linux Kernel Development](http://techbus.safaribooksonline.com/book/programming/linux/9780768696974)
 - [Understading the Linux Kernel](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/0596005652)
