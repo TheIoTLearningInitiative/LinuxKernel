@@ -9,6 +9,6 @@
 * [Kernel Trees](documentation/KernelTrees.md)
 * [Samples](documentation/Samples.md)
 * [Debug](documentation/Debug.md)
-   * Printk
+   * [Printk](documentation/Printk.md)
 * [Kernel Message](documentation/KernelMessage.md)
 
