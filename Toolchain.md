@@ -9,3 +9,4 @@ user@workstation:~/linux$
 - glibc
 - eglibc
 - uClibc
+- musl libc
