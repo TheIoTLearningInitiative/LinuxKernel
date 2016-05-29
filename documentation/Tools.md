@@ -55,6 +55,17 @@ xe1gyq@jessie:~$ cat main.i
 # 375 "/usr/include/features.h" 2 3 4
 # 398 "/usr/include/features.h" 3 4
 # 1 "/usr/include/i386-linux-gnu/gnu/stubs.h" 1 3 4
+...
+...
+extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
+# 943 "/usr/include/stdio.h" 3 4
+
+# 2 "main.c" 2
+
+int main() {
+    printf("Hello World\n");
+    return 0;
+}
 ```
 
 
