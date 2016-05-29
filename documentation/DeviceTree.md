@@ -4,7 +4,7 @@
 
 
 ```sh
-xe1gyq@jessie:~/linux$ find -name *.dts
+user@workstation:~/linux$ find -name *.dts
 ./arch/microblaze/boot/dts/system.dts
 ...
 ./arch/x86/platform/ce4100/falconfalls.dts
@@ -17,5 +17,5 @@ xe1gyq@jessie:~/linux$ find -name *.dts
 ```
 
 ```sh
-xe1gyq@jessie:~/linux$ make  ARCH=x86 falconfalls.dtsscripts/kconfig/conf  --silentoldconfig Kconfig
+user@workstation:~/linux$ make  ARCH=x86 falconfalls.dtsscripts/kconfig/conf  --silentoldconfig Kconfig
 ```
