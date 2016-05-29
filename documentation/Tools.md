@@ -21,6 +21,18 @@ GNU ld (GNU Binutils for Debian) 2.25
 user@workstation:~$ 
 ```
 
+
+```c
+#include <stdio.h>
+ 
+int main() {
+    printf("Hello, world!\n");
+    return 0;
+}
+```
+
+
+
 ## Make
 
 
