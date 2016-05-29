@@ -15,3 +15,12 @@ scripts/kconfig/mconf  Kconfig
 < Kernel Menuconfig Screen >
 
 ```
+
+```sh
+   Symbol: SAMPLES [=n]
+   Type  : boolean
+   Prompt: Sample kernel code
+     Location:
+   (1) -> Kernel hacking
+     Defined at samples/Kconfig:1
+```
