@@ -13,15 +13,15 @@ Checking out files: 100% (53660/53660), done.
 user@workstation:~$ cd linux
 user@workstation:~/linux$ git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
 user@workstation:~/linux$ git fetch linux-next
-
-user@workstation:~$ make oldconfig
+user@workstation:~/linux$ make oldconfig
 <You will be asked configuration questions not answered, hit Enter for all of them>
-user@workstation:~$ make -j3
+user@workstation:~/linux$ make -j3
   IHEX2FW firmware/whiteheat_loader.fw
   IHEX2FW firmware/whiteheat.fw
   IHEX2FW firmware/keyspan_pda/keyspan_pda.fw
   IHEX2FW firmware/keyspan_pda/xircom_pgs.fw
-root@workstation:~# make modules_install
+user@workstation:~/linux# make oldconfig
+ make modules_install
 
 root@workstation:~# make install
 ```
