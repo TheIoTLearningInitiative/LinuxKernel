@@ -11,7 +11,13 @@ Cloning into 'linux'...
 ...
 Checking out files: 100% (53660/53660), done.
 user@workstation:~$ cd linux
+```
+
+```sh
 user@workstation:~/linux$ git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+```
+
+```sh
 user@workstation:~/linux$ git fetch linux-next
 remote: Counting objects: 97618, done.
 remote: Compressing objects: 100% (19757/19757), done.
@@ -25,7 +31,9 @@ From https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next
  * [new branch]      stable     -> linux-next/stable
  * [new tag]         next-20160527 -> next-20160527
 user@workstation:~/linux$ 
+```
 
+```sh
 user@workstation:~/linux$ make oldconfig
 <You will be asked configuration questions not answered, hit Enter for all of them>
 user@workstation:~/linux$ make -j3
