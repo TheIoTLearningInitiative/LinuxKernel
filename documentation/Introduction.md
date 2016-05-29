@@ -6,3 +6,4 @@
 ## Kernel Newbies
 
 > Kernelnewbies is a community of aspiring Linux kernel developers who work to improve their Kernels and more experienced developers willing to share their knowledge. Kernelnewbies can be found on the MailingList, IRC (irc.oftc.net #kernelnewbies), the web forum and this wiki. [Homepage](http://kernelnewbies.org/)
+
