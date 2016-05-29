@@ -20,9 +20,13 @@
 
 ### [The Art of Linux Kernel Design](http://techbus.safaribooksonline.com/book/programming/linux/9781466518032)
 
-> 
+> Difficulty in understanding an operating system (OS) lies not in the technical aspects, but in the complex relationships inside the operating systems. The Art of Linux Kernel Design: Illustrating the Operating System Design Principle and Implementation addresses this complexity. Written from the perspective of the designer of an operating system, this book tackles important issues and practical problems on how to understand an operating system completely and systematically. It removes the mystery, revealing operating system design guidelines, explaining the BIOS code directly related to the operating system, and simplifying the relationships and guiding ideology behind it all.
 
-- [Professional Linux Kernel Architecture](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/9780470343432)
+
+### [Professional Linux Kernel Architecture](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/9780470343432)
+
+
+
 - [Linux Kernel Development](http://techbus.safaribooksonline.com/book/programming/linux/9780768696974)
 - [Understading the Linux Kernel](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/0596005652)
 - [Embedded Linux Projects Using Yocto Project Cookbook](http://techbus.safaribooksonline.com/book/programming/linux/9781784395186)
