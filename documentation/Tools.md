@@ -70,6 +70,7 @@ int main() {
 }
 ```
 
+## Compilation
 
 ```
 user@workstation:~$ gcc -S main.i
