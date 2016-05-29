@@ -24,3 +24,18 @@ scripts/kconfig/mconf  Kconfig
    (1) -> Kernel hacking
      Defined at samples/Kconfig:1
 ```
+
+```sh
+[ ] Sample kernel code  ----
+```
+
+```sh
+      --- Sample kernel code
+      < >   Build trace_events examples -- loadable modules only (NEW)
+      < >   Build kobject examples -- loadable modules only (NEW)
+      < >   Build kprobes examples -- loadable modules only (NEW)
+      < >   Build kernel hardware breakpoint examples -- loadable modules (NEW)
+      < >   Build kfifo examples -- loadable modules only (NEW)
+      < >   Build configfs patching sample -- loadable modules only (NEW)
+```
+      
