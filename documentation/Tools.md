@@ -134,6 +134,23 @@ user@workstation:~$
 ```
 
 ```
+user@workstation:~$ objdump -t main.o
+
+main.o:     file format elf32-i386
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 main.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .note.GNU-stack	00000000 .note.GNU-stack
+00000000 l    d  .eh_frame	00000000 .eh_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text	0000002e main
+00000000         *UND*	00000000 puts
+
+user@workstation:~$  
 ```
 
 ```
