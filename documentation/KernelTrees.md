@@ -20,8 +20,7 @@ user@workstation:~/linux$ make -j3
   IHEX2FW firmware/whiteheat.fw
   IHEX2FW firmware/keyspan_pda/keyspan_pda.fw
   IHEX2FW firmware/keyspan_pda/xircom_pgs.fw
-user@workstation:~/linux# make oldconfig
- make modules_install
+user@workstation:~/linux# make modules_install
 
 root@workstation:~# make install
 ```
