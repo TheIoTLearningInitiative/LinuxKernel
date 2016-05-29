@@ -171,7 +171,7 @@ user@workstation:~$ ld -o main main.o
 ld: warning: cannot find entry symbol _start; defaulting to 0000000008048074
 main.o: In function `main':
 main.c:(.text+0x1a): undefined reference to `puts'
-user@workstation:~$ ld -o main main.o ^C
+user@workstation:~$ 
 ```
 
 ## Hello World Compilation Process, Automated
