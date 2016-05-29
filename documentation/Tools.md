@@ -32,12 +32,12 @@ int main() {
 ```
 
 ```sh
-xe1gyq@jessie:~$ cpp main.c > main.i
-xe1gyq@jessie:~$ 
+user@workstation:~$ cpp main.c > main.i
+user@workstation:~$ 
 ```
 
 ```sh
-xe1gyq@jessie:~$ cat main.i 
+user@workstation:~$ cat main.i 
 # 1 "main.c"
 # 1 "<built-in>"
 # 1 "<command-line>"
@@ -70,10 +70,10 @@ int main() {
 
 
 ```
-xe1gyq@jessie:~$ gcc -S main.i
-xe1gyq@jessie:~$ ls main*
+user@workstation:~$ gcc -S main.i
+user@workstation:~$ ls main*
 main.c  main.i  main.s
-xe1gyq@jessie:~$ 
+user@workstation:~$ 
 ```
 
 
