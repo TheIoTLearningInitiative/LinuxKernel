@@ -14,9 +14,11 @@
 > hexdump
 > > 
 
-> objdump
+> objcopy
 > > 
 
+> ar
+> > 
 
 ## Compiler
 
