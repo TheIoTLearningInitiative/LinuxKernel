@@ -1,6 +1,7 @@
 # Summary
 
 * [Cover](README.md)
+   * Toolchain
 * [Introduction](documentation/Introduction.md)
    * [Tools](documentation/Tools.md)
    * [Device Tree](documentation/DeviceTree.md)
