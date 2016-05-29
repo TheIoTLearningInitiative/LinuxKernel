@@ -15,4 +15,4 @@
 - [Professional Linux Kernel Architecture](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/9780470343432)
 - [Linux Kernel Development](http://techbus.safaribooksonline.com/book/programming/linux/9780768696974)
 - [Understading the Linux Kernel](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/0596005652)
-- 
+- [Embedded Linux Projects Using Yocto Project Cookbook](http://techbus.safaribooksonline.com/book/programming/linux/9781784395186)
