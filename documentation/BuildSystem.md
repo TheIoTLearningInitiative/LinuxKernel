@@ -220,9 +220,9 @@ Built-In (*)
     Kernel: arch/x86/boot/bzImage is ready  (#3)
       Building modules, stage 2.
       MODPOST 2254 modules
-    root@workstation:~/linux$ make modules_install
-    user@workstation:~/linux$ make install
-    user@workstation:~/linux$ shutdown -r now
+    root@workstation:~/linux# make modules_install
+    root@workstation:~/linux# make install
+    user@workstation:~/linux# shutdown -r now
     <reboot>
     user@workstation:~$ dmesg
 ```
