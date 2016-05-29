@@ -214,12 +214,6 @@ COLLECT_GCC_OPTIONS='-v' '-o' 'main' '-mtune=generic' '-march=i586'
 user@workstation:~$ 
 ```
 
-```
-```
-
-```
-```
-
 ## Make
 
 
