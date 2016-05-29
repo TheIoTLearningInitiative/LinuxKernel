@@ -11,6 +11,9 @@ Cloning into 'linux'...
 ...
 Checking out files: 100% (53660/53660), done.
 user@workstation:~$ cd linux
+user@workstation:~/linux$ git remote add linux-next https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+user@workstation:~/linux$ git fetch linux-next
+
 user@workstation:~$ make oldconfig
 <You will be asked configuration questions not answered, hit Enter for all of them>
 user@workstation:~$ make -j3
