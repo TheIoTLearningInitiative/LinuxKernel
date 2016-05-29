@@ -70,6 +70,10 @@ int main() {
 
 
 ```
+xe1gyq@jessie:~$ gcc -S main.i
+xe1gyq@jessie:~$ ls main*
+main.c  main.i  main.s
+xe1gyq@jessie:~$ 
 ```
 
 
