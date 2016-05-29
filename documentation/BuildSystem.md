@@ -164,12 +164,12 @@ As Module (M)
       MODPOST 2255 modules
       CC      drivers/helloworld/helloworld.mod.o
       LD [M]  drivers/helloworld/helloworld.ko
-    user@workstation:~/linux# make modules_install
-    user@workstation:~/linux# make install
-    user@workstation:~/linux# shutdown -r now
+    root@workstation:~/linux# make modules_install
+    root@workstation:~/linux# make install
+    root@workstation:~/linux# shutdown -r now
     <reboot>
-    user@workstation:~/linux# modprobe helloworld
-    user@workstation:~/linux# dmesg
+    root@workstation:~/linux# modprobe helloworld
+    root@workstation:~/linux# dmesg
 ```
 
 Built-In (*)
