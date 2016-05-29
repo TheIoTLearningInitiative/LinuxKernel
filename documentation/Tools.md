@@ -157,18 +157,28 @@ SYMBOL TABLE:
 user@workstation:~$  
 ```
 
-```
+```sh
 user@workstation:~$ nm main.o
 00000000 T main
          U puts
 user@workstation:~$          
 ```
 
+### Linker
+
+```sh
+xe1gyq@jessie:~$ ld -o main main.o 
+ld: warning: cannot find entry symbol _start; defaulting to 0000000008048074
+main.o: In function `main':
+main.c:(.text+0x1a): undefined reference to `puts'
+xe1gyq@jessie:~$ ld -o main main.o ^C
+```
+
 ## Hello World Compilation Process, Automated
 
 
 
-### Linker
+
 
 ```
 ```
