@@ -31,7 +31,7 @@ int main() {
 }
 ```
 
-# Pre-processing GNU C Preprocessor
+## Pre-Processing GNU C Preprocessor
 
 ```sh
 user@workstation:~$ cpp main.c > main.i
