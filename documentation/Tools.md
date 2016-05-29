@@ -17,8 +17,9 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 user@workstation:~$ 
 ```
 
+## Hello World Compilation
 
-## Linker
+### Linker
 
 
 ```sh
@@ -37,7 +38,7 @@ int main() {
 }
 ```
 
-## Pre-Processing GNU C Preprocessor
+### Pre-Processing GNU C Preprocessor
 
 ```sh
 user@workstation:~$ cpp main.c > main.i
@@ -76,7 +77,7 @@ int main() {
 }
 ```
 
-## Compilation
+### Compilation
 
 ```
 user@workstation:~$ gcc -S main.i
@@ -128,7 +129,7 @@ main:
 user@workstation:~$ 
 ```
 
-## Assembly
+### Assembly
 
 ```
 user@workstation:~$ as -o main.o main.s
@@ -164,7 +165,7 @@ user@workstation:~$ nm main.o
 user@workstation:~$          
 ```
 
-## Linker
+### Linker
 
 ```
 ```
