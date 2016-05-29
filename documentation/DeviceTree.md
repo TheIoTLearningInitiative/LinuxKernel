@@ -17,5 +17,5 @@ user@workstation:~/linux$ find -name *.dts
 ```
 
 ```sh
-user@workstation:~/linux$ make  ARCH=x86 falconfalls.dtsscripts/kconfig/conf  --silentoldconfig Kconfig
+user@workstation:~/linux$ make  ARCH=x86
 ```
