@@ -17,8 +17,6 @@ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 user@workstation:~$ 
 ```
 
-## Hello World Compilation
-
 ### Linker
 
 
@@ -28,6 +26,7 @@ GNU ld (GNU Binutils for Debian) 2.25
 user@workstation:~$ 
 ```
 
+## Hello World Compilation
 
 ```c
 #include <stdio.h>
