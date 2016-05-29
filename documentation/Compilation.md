@@ -28,19 +28,19 @@ user@workstation:~$ cd linux
 ## System Information, Actual Version
 
 ```sh
-user@workstation:~$ uname -a
+user@workstation:~/linux$ uname -a
 Linux jessie 3.16.0-4-686-pae #1 SMP Debian 3.16.7-ckt20-1+deb8u4 (2016-02-29) i686 GNU/Linux
 ```
 
 ## Linux Kernel Compilation, Latest Version
 
 ```sh
-user@workstation:~$ make oldconfig
+user@workstation:~/linux$ make oldconfig
 <You will be asked configuration questions not answered, hit Enter for all of them>
 ```
 
 ```sh
-user@workstation:~$ make -j3
+user@workstation:~/linux$ make -j3
 ...
 ...
   IHEX2FW firmware/whiteheat_loader.fw
@@ -50,13 +50,13 @@ user@workstation:~$ make -j3
 ```
 
 ```sh
-root@workstation:~# make modules_install
+user@workstation:~/linux# make modules_install
 ...
 ...
 ```
 
 ```sh
-root@workstation:~# make install
+user@workstation:~/linux# make install
 ```
 
 ## System Information, Latest Version
