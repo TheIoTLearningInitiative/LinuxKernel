@@ -6,4 +6,5 @@
 * [Build System](documentation/BuildSystem.md)
 * [Kernel Trees](documentation/KernelTrees.md)
 * [Samples](documentation/Samples.md)
+* Debug
 
