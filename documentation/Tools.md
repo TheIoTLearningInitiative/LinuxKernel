@@ -130,7 +130,7 @@ user@workstation:~$
 user@workstation:~$ as -o main.o main.s
 user@workstation:~$ ls main*
 main.c  main.i  main.o  main.s
-user@workstation:~$ 
+user@workstation:~$  
 ```
 
 ```
