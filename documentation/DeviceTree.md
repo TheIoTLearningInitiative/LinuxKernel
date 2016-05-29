@@ -15,3 +15,7 @@ xe1gyq@jessie:~/linux$ find -name *.dts
 ...
 ./drivers/of/unittest-data/testcases.dts
 ```
+
+```sh
+xe1gyq@jessie:~/linux$ make  ARCH=x86 falconfalls.dtsscripts/kconfig/conf  --silentoldconfig Kconfig
+```
