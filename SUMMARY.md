@@ -10,7 +10,7 @@
 * [Samples](documentation/Samples.md)
 * [Debug](documentation/Debug.md)
    * [Printk](documentation/Printk.md)
-   * GDB
+   * [GDB](documentation/Gdb.md)
 * [Kernel Message](documentation/KernelMessage.md)
 * [Toolchain](Toolchain.md)
 
