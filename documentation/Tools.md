@@ -26,7 +26,7 @@ GNU ld (GNU Binutils for Debian) 2.25
 user@workstation:~$ 
 ```
 
-## Hello World Compilation, Manual
+## Hello World Compilation Process, Manual
 
 ```c
 #include <stdio.h>
@@ -163,6 +163,8 @@ user@workstation:~$ nm main.o
          U puts
 user@workstation:~$          
 ```
+
+## Hello World Compilation Process, Automated
 
 ### Linker
 
