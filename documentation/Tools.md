@@ -154,6 +154,10 @@ user@workstation:~$
 ```
 
 ```
+user@workstation:~$ nm main.o
+00000000 T main
+         U puts
+user@workstation:~$          
 ```
 
 ```
