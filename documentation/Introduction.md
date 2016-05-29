@@ -10,4 +10,5 @@
 ## Books
 
 - [Mastering Embedded Linux Programming](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/9781784392536)
+- [Linux Kernel in a Nutshell](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/0596100795)
 
