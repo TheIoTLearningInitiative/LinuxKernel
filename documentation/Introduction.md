@@ -27,7 +27,14 @@
 
 > Find an introduction to the architecture, concepts and algorithms of the Linux kernel in Professional Linux Kernel Architecture, a guide to the kernel sources and large number of connections among subsystems. Find an introduction to the relevant structures and functions exported by the kernel to userland, understand the theoretical and conceptual aspects of the Linux kernel and Unix derivatives, and gain a deeper understanding of the kernel. Learn how to reduce the vast amount of information contained in the kernel sources and obtain the skills necessary to understand the kernel sources.
 
-- [Linux Kernel Development](http://techbus.safaribooksonline.com/book/programming/linux/9780768696974)
-- [Understading the Linux Kernel](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/0596005652)
-- [Embedded Linux Projects Using Yocto Project Cookbook](http://techbus.safaribooksonline.com/book/programming/linux/9781784395186)
-- 
+### [Linux Kernel Development](http://techbus.safaribooksonline.com/book/programming/linux/9780768696974)
+
+> Linux Kernel Development details the design and implementation of the Linux kernel, presenting the content in a manner that is beneficial to those writing and developing kernel code, as well as to programmers seeking to better understand the operating system and become more efficient and productive in their coding.
+
+### [Understading the Linux Kernel](http://techbus.safaribooksonline.com/book/operating-systems-and-server-administration/linux/0596005652)
+
+> The third edition of Understanding the Linux Kernel takes you on a guided tour of the most significant data structures, algorithms, and programming tricks used in the kernel. Probing beyond superficial features, the authors offer valuable insights to people who want to know how things really work inside their machine. Important Intel-specific features are discussed. Relevant segments of code are dissected line by line. But the book covers more than just the functioning of the code; it explains the theoretical underpinnings of why Linux does things the way it does.
+
+### [Embedded Linux Projects Using Yocto Project Cookbook](http://techbus.safaribooksonline.com/book/programming/linux/9781784395186)
+
+> This book begins with the installation of a professional embedded Yocto setup, then advises you on best practices, and finally explains how to quickly get hands on with the Freescale ARM ecosystem and community layer, using the affordable and open source Wandboard embedded board.
