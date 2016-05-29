@@ -164,6 +164,14 @@ user@workstation:~$ nm main.o
 user@workstation:~$          
 ```
 
+## Linker
+
+```
+```
+
+```
+```
+
 ```
 ```
 
