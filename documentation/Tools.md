@@ -2,9 +2,21 @@
 
 - [Compiling, Linking and Building C/C++ Applications](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html)
 
-## NM
+> nm
+> > list symbols from object files
 
-> list symbols from object files
+> objdump
+> > 
+
+> readelf
+> > 
+
+> hexdump
+> > 
+
+> objdump
+> > 
+
 
 ## Compiler
 
