@@ -50,13 +50,13 @@ user@workstation:~/linux$ make -j3
 ```
 
 ```sh
-user@workstation:~/linux# make modules_install
+root@workstation:~/linux# make modules_install
 ...
 ...
 ```
 
 ```sh
-user@workstation:~/linux# make install
+root@workstation:~/linux# make install
 ```
 
 ## System Information, Latest Version
