@@ -3,6 +3,7 @@
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
    * [Tools](documentation/Tools.md)
+   * DEvice Tree
 * [Compilation](documentation/Compilation.md)
 * [Build System](documentation/BuildSystem.md)
 * [Kernel Trees](documentation/KernelTrees.md)
