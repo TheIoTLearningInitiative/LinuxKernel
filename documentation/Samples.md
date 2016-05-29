@@ -108,5 +108,5 @@ Kernel: arch/x86/boot/bzImage is ready  (#1)
   LD [M]  samples/kprobes/kretprobe_example.ko
   CC      samples/trace_events/trace-events-sample.mod.o
   LD [M]  samples/trace_events/trace-events-sample.ko
-user@workstation:~/linux$
+user@workstation:~/linux$ 
 ```
