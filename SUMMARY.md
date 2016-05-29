@@ -9,4 +9,5 @@
 * [Kernel Trees](documentation/KernelTrees.md)
 * [Samples](documentation/Samples.md)
 * [Debug](documentation/Debug.md)
+* Kernel Message
 
