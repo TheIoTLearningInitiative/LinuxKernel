@@ -10,13 +10,13 @@ Do you want to do another Linux Kernel Build System exercise by writing a Hello 
 Make a "helloworld" directory under drivers
 
 ```sh
-    user@workstation:~$ mkdir drivers/helloworld
+    user@workstation:~/linux$ mkdir drivers/helloworld
 ```
 
 Create helloworld.c file under our helloworld directory and add the C code below, this is a simple Hello World Kernel Module
 
 ```sh
-    user@workstation:~$ nano drivers/helloworld/helloworld.c
+    user@workstation:~/linux$$ nano drivers/helloworld/helloworld.c
 ```
 
 ```c
@@ -49,7 +49,7 @@ module_exit(module_exit_function);
 Create the Kconfig file under helloworld directory and add the code below, make sure indentation is correct
 
 ```sh
-    user@workstation:~$ nano drivers/helloworld/Kconfig
+    user@workstation:~/linux$ nano drivers/helloworld/Kconfig
 
     menu "Hello Module Kernel Support"
     
@@ -66,7 +66,7 @@ Create the Kconfig file under helloworld directory and add the code below, make 
 Create the Makefile under helloworld directory and add the code below
 
 ```sh
-    user@workstation:~$ nano drivers/helloworld/Makefile
+    user@workstation:~/linux$ nano drivers/helloworld/Makefile
     obj-$(CONFIG_HELLO_WORLD)               += helloworld.o
 ```
 
@@ -76,7 +76,7 @@ Create the Makefile under helloworld directory and add the code below
 Modify Kconfig under drivers directory and add the line with helloworld
 
 ```sh
-    user@workstation:~$ nano drivers/Kconfig
+    user@workstation:~/linux$ nano drivers/Kconfig
     menu "Device Drivers"
     source "drivers/helloworld/Kconfig"
     source "drivers/amba/Kconfig"
@@ -87,7 +87,7 @@ Modify Kconfig under drivers directory and add the line with helloworld
 Modify Makefile under drivers directory and add the line with __CONFIG_HELLO_WORLD__
 
 ```sh
-user@workstation:~$ nano drivers/Makefile
+user@workstation:~/linux$ nano drivers/Makefile
     ...
     # Rewritten to use lists instead of if-statements.
     #
@@ -101,7 +101,7 @@ user@workstation:~$ nano drivers/Makefile
 We are ready to view our Hello World Module under menuconfig
 
 ```sh
-    user@workstation:~$ make menuconfig
+    user@workstation:~/linux$ make menuconfig
 ```
 
 Go to its location under
@@ -151,7 +151,7 @@ Now compile your Hello World Module both as module and built-in into the Kernel 
 As Module (M)
 
 ```sh
-    user@workstation:~$ make
+    user@workstation:~/linux$ make
       CHK     include/config/kernel.release
       CHK     include/generated/uapi/linux/version.h
       CHK     include/generated/utsrelease.h
@@ -164,19 +164,19 @@ As Module (M)
       MODPOST 2255 modules
       CC      drivers/helloworld/helloworld.mod.o
       LD [M]  drivers/helloworld/helloworld.ko
-    root@workstation:~# make modules_install
-    root@workstation:~# make install
-    root@workstation:~# shutdown -r now
+    user@workstation:~/linux# make modules_install
+    user@workstation:~/linux# make install
+    user@workstation:~/linux# shutdown -r now
     <reboot>
-    root@workstation:~# modprobe helloworld
-    root@workstation:~# dmesg
+    user@workstation:~/linux# modprobe helloworld
+    user@workstation:~/linux# dmesg
 ```
 
 Built-In (*)
 
 ```sh
-    user@workstation:~$ make
-    xe1gyq@Minnowboard:~/linux$ make                                                               ```
+    user@workstation:~/linux$ make
+```
 
 ```sh
     scripts/kconfig/conf --silentoldconfig Kconfig
@@ -220,9 +220,9 @@ Built-In (*)
     Kernel: arch/x86/boot/bzImage is ready  (#3)
       Building modules, stage 2.
       MODPOST 2254 modules
-    root@workstation:~# make modules_install
-    root@workstation:~# make install
-    root@workstation:~# shutdown -r now
+    root@workstation:~/linux$ make modules_install
+    user@workstation:~/linux$ make install
+    user@workstation:~/linux$ shutdown -r now
     <reboot>
     user@workstation:~$ dmesg
 ```
