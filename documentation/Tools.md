@@ -26,7 +26,7 @@ GNU ld (GNU Binutils for Debian) 2.25
 user@workstation:~$ 
 ```
 
-## Hello World Compilation
+## Hello World Compilation, Manual
 
 ```c
 #include <stdio.h>
