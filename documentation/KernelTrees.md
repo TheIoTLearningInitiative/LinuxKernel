@@ -118,3 +118,9 @@ root@workstation:~/linux# make modules_install
 
 root@workstation:~/linux# make install
 ```
+
+## Stable
+
+```sh
+user@workstation:~/linux$ git clone git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
+```
